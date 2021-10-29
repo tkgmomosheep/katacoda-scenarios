@@ -1,0 +1,1 @@
+An introduction to PCI-DSS and GDPR, plus related configuration in Wordpress and Woo Commerce.
