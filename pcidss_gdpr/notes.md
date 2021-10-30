@@ -53,7 +53,9 @@ Compliance (PCI DSS/ GDPR)
         Article 24
             Provide audit trail of database activity
 
-And maybe mention 1. why comply with PCI DSS and 2. how to identify in-scope network components (so that they can know what are their primary focus when apply controls)
+And maybe mention 
+1. why comply with PCI DSS
+2. how to identify in-scope network components (so that they can know what are their primary focus when apply controls)
 Ah, also mention those requirements that you didn't include in the list (e.g. req 1,5,9), but no need to elaborate them, just tell them what the req is about briefly
 wait 😂 last:
 You may talk about the rights of data subjects under GDPR
