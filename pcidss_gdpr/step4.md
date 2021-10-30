@@ -21,7 +21,7 @@
 ## Requirement 2.4 Disable anonymous accounts and defaults
 1. Enter the following command
 `mysql_secure_installation`{{execute}}
-2. Follow the on-scree prompt to secure the server
+2. Follow the on-scree prompt to secure the server, select 1 for password validation policy
 The command covers the following requirements:<br>
     ○ Setup of VALIDATE PASSWORD plugin <br>
     ○ Level of password validation policy <br>
