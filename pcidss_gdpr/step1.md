@@ -5,7 +5,7 @@ The Payment Card Industry Data Security Standard (PCI DSS) is a set of security 
 All business that store, process or transmit payment cardholder data must be PCI Compliant.
 
 # PCI-DSS requirements
-## Non-database related thus will not be covered here!
+## Non-database related!
 ● Requirement 1: Install and maintain a firewall configuration to protect cardholder data <br>
 ● Requirement 5: Protect all systems against malware and regularly update antivirus software or programs <br>
 ● Requirement 9: Restrict physical access to cardholder data <br>

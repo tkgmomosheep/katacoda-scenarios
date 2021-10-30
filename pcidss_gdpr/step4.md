@@ -1,4 +1,4 @@
-# Requirement 3: Protect Stored Cardholder Data
+# Requirement 2: Not Using Vendor Default Passwords and Security Settings
 ## Requirement 2.4 Disable anonymous accounts and defaults
 1. Start a bash shell into the mysql container
 `docker exec -it mysql bash`{{execute}}

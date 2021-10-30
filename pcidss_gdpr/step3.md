@@ -1,14 +1,19 @@
-# Requirement 2: Not Using Vendor Default Passwords and Security Settings
-## Requirement 2.4 Disable anonymous accounts and defaults
-1. Start a bash shell into the mysql container
-`docker exec -it mysql bash`{{execute}}
-2. Enter the following command
-`mysql_secure_installation`{{execute}}
-3. Follow the on-scree prompt to secure the server.
-The command covers the following requirements:
-    ○ Setup of VALIDATE PASSWORD plugin <br>
-    ○ Level of password validation policy <br>
-    ○ Setting password for root <br>
-    ○ Removal of anonymous users <br>
-    ○ Revoking remote root logins <br>
-    ○ Removal of default schemas and grants for it
+# PCI-DSS requirements
+## Non-database related requirements
+### Requirement 1: Install and maintain a firewall configuration to protect cardholder data
+ - A firewall can restrict inbound and outbound traffic to only necessary ones to protect cardholder data
+ - For example iptables on debian
+
+### Requirement 5: Protect all systems against malware and regularly update antivirus software or programs
+ - Using a anti-virus software can lower the risk of mclicious software attack
+ - For instance clamav-daemon on debian
+
+### Requirement 9: Restrict physical access to cardholder data
+ - Prevent unauthorized access to media that contains cardholder data
+ - Media is both paper and electronic media.
+
+### Requirement 11: Regularly test security systems and processes
+ - Vulnerability scanning and penetration testing can be performed
+
+### Requirement 12: Maintain a policy that addresses information security for all personal
+ - Auditd and acct can be used to keep audit trails and keep account related information
