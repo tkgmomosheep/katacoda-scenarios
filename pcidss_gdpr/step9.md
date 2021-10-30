@@ -1,1 +1,3 @@
-# Requirement 8: Identify and Authenticate Access to System Components
+# Requirement 10 Track and Monitor Access to Cardholder Data
+1. PS audit can be enabled in mysql enterprice using the following command:
+`INSTALL PLUGIN audit_log SONAME 'audit_log.so';`
